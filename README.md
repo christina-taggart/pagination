@@ -1,10 +1,10 @@
-# Layout Drill Pagination Navigation 
- 
-##Learning Competencies 
+# Layout Drill Pagination Navigation
 
-##Summary 
+## Learning Competencies
 
- We're going to learn some fundamentals about styling elements on a web page.  You'll have a set of fixed HTML files to work with and your job is to change the CSS and *only* the CSS to achieve the desired effects.
+## Summary
+
+We're going to learn some fundamentals about styling elements on a web page.  You'll have a set of fixed HTML files to work with and your job is to change the CSS and *only* the CSS to achieve the desired effects.
 
 The [source gist](https://gist.github.com/dbc-challenges/dbfab8097733d67b8e5b) contains a set of files meant to represent a blog article that spans multiple pages.
 
@@ -42,11 +42,11 @@ Take note of the use of the `active` and `disabled` classes in the HTML.  You sh
 - Links with `class="active"` have a dark background and light text color
 - Links with `class="disabled"` have a lighter text color against the same background
 
-Make sure to give all of the "buttons" uniform spacing.  Good layout design is all about knowing when and how to enforce visual consistency. 
+Make sure to give all of the "buttons" uniform spacing.  Good layout design is all about knowing when and how to enforce visual consistency.
 
-##Releases
-###Release 0 
+## Releases
+### Release 0
 
-##Optimize Your Learning 
+## Optimize Your Learning
 
-##Resources
+## Resources
