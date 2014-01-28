@@ -2,9 +2,9 @@
 
 ## Learning Competencies
 
-* More practice with the CSS box model.
-* Deepen understanding of the DOM hierarchy.
-* CSS styling using colors.
+* Use the DOM to access and modify HTML elements
+* Describe the characteristics of the box model
+* Change basic CSS appearance: colors, widths, padding, margin
 
 ## Summary
 
@@ -12,8 +12,7 @@ We're going to learn some fundamentals about styling elements on a web page.
 You'll have a set of fixed HTML files to work with and your job is to change
 the CSS and *only* the CSS to achieve the desired effects.
 
-The `/source` directory contains a set of files meant to represent a blog
-article that spans multiple pages.
+The `/source` directory contains a set of files meant to represent a blog article that spans multiple pages.
 
 If you open up any of the `page*.html` pages (the `*` represents any
 character), you'll find that they follow this format:
