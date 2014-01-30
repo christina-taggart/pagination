@@ -18,7 +18,10 @@ small.page_no {
 
 .pagination {
   background-color: #eee;
+  height: 30px;
+  line-height: 30px;
   margin: 10px 0px;
+  width: 350px;
 }
 
 .pagination a {
@@ -33,7 +36,11 @@ small.page_no {
 }
 
 .pagination li {
+  border: 1px solid grey;
   display: inline;
+  margin: 0px;
+  padding: 5px 9px;
+  width: 30px;
 }
 
 .pagination a.disabled {
