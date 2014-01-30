@@ -19,6 +19,9 @@ small.page_no {
 .pagination {
   background-color: #eee;
   margin: 10px 0px;
+  display: inline-block;
+  border-style: solid;
+  border-width: 1px;
 }
 
 .pagination a {
@@ -29,3 +32,20 @@ small.page_no {
 .pagination a.disabled {
   color: #ccc;
 }
+
+.pagination a.active {
+  background-color: black;
+  color: white;
+}
+
+li {
+  display: inline;
+  border-left-style: solid;
+  border-width: 1px;
+}
+
+ol {
+  display: inline;
+  padding-left: 0px;
+}
+
