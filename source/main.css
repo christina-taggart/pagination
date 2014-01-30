@@ -4,10 +4,10 @@
     will how you center it inside its parent container.
 
     See: http://bluerobot.com/web/css/center1.html
-    
+
     Don't change the container width.
   */
-  margin: 0 auto;  
+  margin: 0 auto;
   width: 720px;
 }
 
@@ -16,14 +16,24 @@ small.page_no {
   color: #ddd;
 }
 
+ol {
+  list-style: none;
+}
+
+li {
+  display: inline-block;
+  border-left: 1px solid grey;
+  padding: 8px;
+}
+
 .pagination {
   background-color: #eee;
   margin: 10px 0px;
+  border: 1px solid grey;
 }
 
 .pagination a {
   color: #222;
-  text-decoration: none;
 }
 
 .pagination a.disabled {
