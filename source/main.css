@@ -17,36 +17,39 @@ small.page_no {
 }
 
 .pagination {
-  background-color: #eee;
+  font-size: 0px;
   height: 30px;
   line-height: 30px;
   margin: 10px 0px;
-  width: 350px;
+  width: 340px;
 }
 
 .pagination a {
+  background-color: #eee;
   border: 1px solid grey;
   color: #222;
+  font-size: 16px;
   display: inline;
   padding: 5px 9px;
-  text-decoration: none;
   width: 30px;
+}
+
+a.active {
+  background-color: #a6a6a6;
 }
 
 .pagination ol {
   display: inline;
-  padding: 0 15px;
+  list-style: none;
+  padding: 0;
 }
 
 .pagination li {
   display: inline;
-  margin: 0px;
 }
 
 .pagination a.disabled {
   color: #ccc;
 }
 
-.active {
-  background-color: #d6d6d6;
-}
+
