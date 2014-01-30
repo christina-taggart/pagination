@@ -18,22 +18,42 @@ small.page_no {
 
 ol {
   list-style: none;
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  border-right: 1px solid grey;
 }
 
 li {
-  display: inline-block;
+  float: left;
   border-left: 1px solid grey;
-  padding: 8px;
 }
 
 .pagination {
   background-color: #eee;
-  margin: 10px 0px;
+  display: inline-block;
+  margin: 20px 0;
+  width: 420px;
+  height: 34px;
   border: 1px solid grey;
+  border-radius: 3px;
 }
 
 .pagination a {
   color: #222;
+  padding: 8px 16px;
+}
+
+.pagination a:first-child {
+  float: left;
+}
+
+.pagination a:last-child {
+  float: right;
+}
+
+.pagination a.active {
+  background: darkgrey;
 }
 
 .pagination a.disabled {
