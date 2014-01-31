@@ -16,6 +16,8 @@ small.page_no {
   color: #ddd;
 }
 
+
+
 .pagination {
   background-color: #eee;
   margin: 10px 0px;
@@ -24,8 +26,23 @@ small.page_no {
 .pagination a {
   color: #222;
   text-decoration: none;
+  margin-left: 25px;
+  float: left;
+}
+
+.pagination li {
+  color: transparent;
+  margin-left: 25px;
+  float: left;
 }
 
 .pagination a.disabled {
   color: #ccc;
+}
+
+.footer {
+  width: 50%;
+  text-align: center;
+  padding-top: 25px;
+  padding-left: 70px;
 }
