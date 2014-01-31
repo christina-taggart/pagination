@@ -1,12 +1,5 @@
 .container {
-  /*
-    If you have a block-level element of a certain width, margin: 0 auto;
-    will how you center it inside its parent container.
 
-    See: http://bluerobot.com/web/css/center1.html
-    
-    Don't change the container width.
-  */
   margin: 0 auto;  
   width: 720px;
 }
@@ -17,15 +10,44 @@ small.page_no {
 }
 
 .pagination {
+  display: inline;
+  padding: 6px 12px;
+  width: 370px;
   background-color: #eee;
   margin: 10px 0px;
+  /*border: 1px solid gray;*/
+  line-height: 0;
 }
 
 .pagination a {
   color: #222;
+  padding-left: 0;
+  display: inline;
   text-decoration: none;
+  bottom: 10px;
 }
 
 .pagination a.disabled {
   color: #ccc;
+}
+
+.pagination a.active {
+  color: white;
+  padding: 6px 12px;
+  background: gray;
+}
+
+ol {
+  display: inline;
+}
+
+li {
+  display: inline;
+  padding: 6px 6px;
+  /*border-left: 1px solid gray;*/
+}
+
+.footer {
+  clear:both;
+  padding: 20px 0;
 }
