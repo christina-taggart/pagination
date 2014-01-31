@@ -29,3 +29,20 @@ small.page_no {
 .pagination a.disabled {
   color: #ccc;
 }
+
+ol {
+  display: inline-block;
+  margin: 0px;
+  padding: 0px;
+}
+
+li {
+  list-style-type: none;
+  display: inline-block;
+  padding: 0px 10px;
+  border: 1px solid gray;
+}
+
+.active {
+  background-color: #ccc;
+}
