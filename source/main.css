@@ -17,15 +17,39 @@ small.page_no {
 }
 
 .pagination {
-  background-color: #eee;
   margin: 10px 0px;
+}
+
+.pagination ol {
+  display: inline;
+}
+
+.pagination li {
+  display: inline;
+}
+
+a {
+  float: left;
 }
 
 .pagination a {
   color: #222;
-  text-decoration: none;
+  padding: 8px 10px;
+  display: inline-block;
+  background: #eee;
 }
 
 .pagination a.disabled {
   color: #ccc;
+  background: #eee
+}
+
+.pagination a.active {
+  background: darkgray;
+  border: solid 1px;
+}
+
+.footer {
+  clear: both;
+  padding-top: 10px;
 }
